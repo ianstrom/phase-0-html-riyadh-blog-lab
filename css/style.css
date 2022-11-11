@@ -56,12 +56,18 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(51, 0, 255);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: rgb(0, 255, 34);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(244, 3, 184)
 }
 
 @media only screen and (max-width: 1042px) {
